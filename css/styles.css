@@ -129,7 +129,8 @@ hr {
     margin: 40px auto 60px;
 }
 
-.btn {
+
+/* .btn {
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
     background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
@@ -167,12 +168,17 @@ hr {
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
-}
+} */
 
 .copy-right {
-    color: #EAF6F6;
+    color: #111313;
     font-size: 0.75rem;
     padding: 20px 0px;
+}
+
+.copy-right-container {
+    padding: 50px auto;
+    text-align: center;
 }
 
 
