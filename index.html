@@ -35,7 +35,7 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" href="#about-me">About</a>
@@ -58,25 +58,27 @@
         </nav>
 
     </div>
-    <div class="row top-container container-fluid">
-        <div class="col-lg-6">
-            <h3>Hello, Welcome back to my personal website</h2>
-                <h1>I'm Johnson, Chong Kit Sang</h1>
-                <h2>
-                    <p class="job-title">An Mobile Application Developer<br>and Machine Learning Developer</p>
-                </h2>
-        </div>
-        <div class="col-lg-6">
-            <img src="./images/person_photo202001_head_circle.png" alt="Johnson's Photo" width="400" height="400">
+    <div class="top-container container-fluid" id="home">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>Hello, Welcome back to my personal website</h2>
+                    <h1>I'm Johnson, Chong Kit Sang</h1>
+                    <h2>
+                        <p class="job-title">An Mobile Application Developer<br>and Machine Learning Developer</p>
+                    </h2>
+            </div>
+            <div class="col-lg-6">
+                <img src="./images/person_photo202001_head_circle.png" alt="Johnson's Photo" width="400" height="400">
+            </div>
         </div>
     </div>
-    <div class="row middle-container container-fluid">
+    <div class="row middle-container container-fluid" id="about-me">
         <div class="profile-img col-lg-6 col-md-6">
             <img src="./images/person_photo202001_head_1500dp.jpg" alt="Johnson's Photo" width="400" height="400">
 
         </div>
-        <div class="profile-about col-lg-6 col-md-6" id="about-me">
-            <h1>About Me</h1>
+        <div class="profile-about col-lg-6 col-md-6">
+            <h1 class="about-title">About Me</h1>
             <p class="intro">I'm an Big Data, Mechine Learning and Mobile Applcation Developer. I love to build a challenge application project. I love to develop a good AI/Machine Learning Application for people. It always gives me challenges and opportunity to improve
                 myself and also share the development experience with others.</p>
         </div>
@@ -87,16 +89,16 @@
         <div class="row">
             <div class="skill-row col-lg-6 col-md-6">
                 <div class="card">
-                    <img class="app-img card-img-top" src="./images/mobile-apps.jpg" alt="moble apps image" width="400" height="300">
+                    <img class="skill-img card-img-top" src="./images/mobile-apps.jpg" alt="moble apps image">
                     <div class="card-body">
                         <h3 class="card-title">Mobile Application Development</h3>
-                        <p class="app-descripts card-text">I'm start iOS and Android Mobile Application Development from 2012. </p>
+                        <p class="app-descripts card-text">I have over 5 year experience develop iOS/Android Mobile apps. </p>
                     </div>
                 </div>
             </div>
             <div class="skill-row col-lg-6 col-md-6">
                 <div class="card">
-                    <img class="ai-img card-img-top" src="./images/machine_learning.jpeg" alt="machine learning image" width="400" height="300">
+                    <img class="skill-img card-img-top" src="./images/machine_learning.jpg" alt="machine learning image">
                     <div class="card-body">
                         <h3 class="card-title">Machine Learning Application Development</h3>
                         <p class="ai-descripts card-text">I love to develop a good AI/Machine Learning Application for people. It always gives me challenges and opportunity to improve myself and also share the development experience with others.</p>
@@ -105,7 +107,7 @@
             </div>
             <div class="skill-row col-lg-6 col-md-6">
                 <div class="card">
-                    <img class="ai-img card-img-top" src="./images/internet-of-things.png" alt="machine learning image" width="400" height="400">
+                    <img class="skill-img card-img-top" src="./images/internet-of-things.png" alt="machine learning image">
                     <div class="card-body">
                         <h3 class="card-title">Internet Of Things(IoT)</h3>
                         <p class="ai-descript card-text">Due to my background is electronic engineering and Information Technology Developer. I have many project need to interface IoT device with mobile apps for make application. IoT is one of a good application for Big Data analysis,
@@ -116,7 +118,7 @@
             </div>
             <div class="skill-row col-lg-6 col-md-6">
                 <div class="card">
-                    <img class="ai-img card-img-top" src="./images/the_era-of-computer-vision.png" alt="machine learning image" width="400" height="400">
+                    <img class="skill-img card-img-top" src="./images/the_era-of-computer-vision.png" alt="machine learning image">
                     <div class="card-body">
                         <h3 class="card-title">Computer Vision</h3>
                         <p class="ai-descript card-text">Computer Vision is one of my new developing Skills for application. In Mobile apps, it </p>
@@ -217,10 +219,10 @@
         <div class="row">
             <div class="col-lg-4 col-md-4">
                 <div class="card">
-                    <img class="app-img card-img-top" src="./images/mobile-apps.jpg" alt="moble apps image" width="400" height="300">
+                    <img class="project-img card-img-top" src="./images/stock-predication.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
                         <h3 class="card-title">Machine Learning for Stock Price Predication (tweet (Twitter) Sentiment analysis)</h3>
-                        <p class="app-descripts card-text">• predication the next 7 days price stock by Machine/Deep learning algorithm • Building Deep learning Model for Prediction stock price • Use Dataset for training model : 2 yrs stock price history (8 company stock price: Apple,
+                        <p class="project-descripts card-text">• predication the next 7 days price stock by Machine/Deep learning algorithm • Building Deep learning Model for Prediction stock price • Use Dataset for training model : 2 yrs stock price history (8 company stock price: Apple,
                             Amazon, Citibank, Dominion Energy, Facebook, Alphabet(Google), Microsoft, AT&T)-- like yahoo financial stock price in CSV format) and 2 yr tweet (Twitter API) daily message for specific company news (in JSON format) • Combine
                             both stock price prediction and Tweet message sentiment analysis together to obtain more accurate stock price • Use Mean Square Error (MSE) to verify the predict model performance • Use Real stock price to verify the predict
                             performance
@@ -230,10 +232,10 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="card">
-                    <img class="app-img card-img-top" src="./images/machine_learning.jpeg" alt="moble apps image" width="400" height="300">
+                    <img class="project-img card-img-top" src="./images/handwriting-recognition.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
                         <h3 class="card-title">Machine Learning for Handwritten (MNIST digit) recognition (classification)</h3>
-                        <p class="app-descripts card-text">• Comparison Different Deep learning Tool (package), performance • Method: use same deep learning algorithm, same hardware and solve same problem for evaluate the deep learning tool performance • Selected compare tool: Tensorflow,
+                        <p class="project-descripts card-text">• Comparison Different Deep learning Tool (package), performance • Method: use same deep learning algorithm, same hardware and solve same problem for evaluate the deep learning tool performance • Selected compare tool: Tensorflow,
                             Pytorch, Scikit-learn • Test model: Classification Handwritten digit patterns with Deep learning (CNN) algorithm • Use Dataset for training model : MNIST handwritten Digit dataset (image data) • Build CNN model to train and
                             test the Handwritten classification algorithm • Use Train speed, CPU usage, Memory usage, Classification report(precision, recall, F1-score,support), accurate rate, confusion matrix for comparison tool performance after model
                             training
@@ -244,10 +246,10 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="card">
-                    <img class="app-img card-img-top" src="./images/mobile-apps.jpg" alt="moble apps image" width="400" height="300">
+                    <img class="project-img card-img-top" src="./images/weather-apps.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
                         <h3 class="card-title">Android Weather Apps (With Open Weather Restful API)</h3>
-                        <p class="app-descripts card-text">• Write Android Apps to request the city weather condition • Use Open Weather Restful API (JSON format) with Auth key to request Specific city weather condition • Show Weather Data: Temperature, Humidity, Wind, show weather condition(Sunny,
+                        <p class="project-descripts card-text">• Write Android Apps to request the city weather condition • Use Open Weather Restful API (JSON format) with Auth key to request Specific city weather condition • Show Weather Data: Temperature, Humidity, Wind, show weather condition(Sunny,
                             rain) with icon • Addition City list to assist input the city name for user
                         </p>
                     </div>
@@ -255,10 +257,10 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="card">
-                    <img class="app-img card-img-top" src="./images/mobile-apps.jpg" alt="moble apps image" width="400" height="300">
+                    <img class="project-img card-img-top" src="./images/power-saving.png" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
                         <h3 class="card-title">Wear OS Power Saver Apps (Android Wear) with Machine Learning</h3>
-                        <p class="app-descripts card-text">• Develop Android Power Saving Apps for Wear OS watch • Battery Life is very limit (normal operation time less 48hrs) in Wear OS watch, it is a very critical at Wear OS watch • Use Machine Learning Predict Battery life and Reduce
+                        <p class="project-descripts card-text">• Develop Android Power Saving Apps for Wear OS watch • Battery Life is very limit (normal operation time less 48hrs) in Wear OS watch, it is a very critical at Wear OS watch • Use Machine Learning Predict Battery life and Reduce
                             power saving • Use the power saving apps for monitor, analysis, control and optimal the battery usage, other apps usage, communication interface usage • Wear OS apps: periodic logging battery usage, communication interface
                             (wifi, Bluetooth), other apps usage condition implement scheduler and power control determine by interface • Wear OS apps interface with Mobile Apps and backend web service for data analysis and build power saving model • Use
                             Machine Learning algorithm for enhance user battery usage analysis and determine power saving schedule
@@ -269,10 +271,10 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="card">
-                    <img class="app-img card-img-top" src="./images/mobile-apps.jpg" alt="moble apps image" width="400" height="300">
+                    <img class="project-img card-img-top" src="./images/sport-analysis.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
                         <h3 class="card-title">Wear Sport Apps (Android Wear) with Machine Learning</h3>
-                        <p class="app-descripts card-text">• Write Android Apps (Wear OS) to log the user Sport behavior for sport analysis and sport coach function • Analysis like tennis, badminton, golf swing motion performance • Wear OS app logging with watch sensor like (accelerometer,
+                        <p class="project-descripts card-text">• Write Android Apps (Wear OS) to log the user Sport behavior for sport analysis and sport coach function • Analysis like tennis, badminton, golf swing motion performance • Wear OS app logging with watch sensor like (accelerometer,
                             gyroscope, magnetometer) obtain motion data • Wear OS apps interface mobile app / backend web service with Machine learning model for analysis sport motion
                         </p>
                     </div>
@@ -280,10 +282,10 @@
             </div>
             <div class="col-lg-4 col-md-4">
                 <div class="card">
-                    <img class="app-img card-img-top" src="./images/mobile-apps.jpg" alt="moble apps image" width="400" height="300">
+                    <img class="project-img card-img-top" src="./images/Video-Conferencing.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
                         <h3 class="card-title">Video Conference Web hosting</h3>
-                        <p class="app-descripts card-text">• Build a Zoom like Web and Mobile apps application for video conference and Chat Message Use Skill: • Node.js, AWS, WebRTC, Socket.io, ICE server, STUN/ TURN server , html, css, bootstrap
+                        <p class="project-descripts card-text">• Build a Zoom like Web and Mobile apps application for video conference and Chat Message Use Skill: • Node.js, AWS, WebRTC, Socket.io, ICE server, STUN/ TURN server , html, css, bootstrap
                         </p>
                     </div>
                 </div>
