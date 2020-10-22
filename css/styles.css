@@ -42,58 +42,70 @@ h3 {
 }
 
 a {
-    color: #266e70;
+    /* color: #266e70;
     font-family: 'Montserrat', sans-serif;
     margin: 10px 20px;
-    text-decoration: none;
+    text-decoration: none; */
 }
 
 a:hover {
     color: #EAF6F6;
 }
 
+
+/* Navbar Style */
+
+.title-navbar {
+    padding: 1% 15% 1%;
+    text-align: left;
+    font-size: 1.2rem;
+    background-color: #66BFBF;
+}
+
+.protofilo-link {
+    font-size: 2.5rem;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.local-link {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    margin: 4px 5px;
+}
+
+.footer-link {
+    color: #266e70;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
 p {
     line-height: 2;
 }
 
-hr {
-    border: dotted #EAF6F6;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
-}
-
-.title-navbar {
-    padding: 1% 5% 1%;
-    text-align: left;
-    font-size: 1.2rem;
-    font-weight: 400;
-    background-color: #66BFBF;
-}
-
-.top-container {
+.home-container {
     background-color: #e0fcff;
-    padding: 10% 0% 10%;
+    padding: 10% 15% 10%;
 }
 
 .home-title {
-    padding: 2% 3% 5%;
+    /*  padding: 2% 20% 5%; */
 }
 
 .job-title {
     text-align: left;
     position: relative;
-    left: 20%;
+    left: 5%;
     font-size: 2rem;
 }
 
 .about-me-container {
-    padding: 2% 3% 5%;
+    padding: 2% 15% 5%;
 }
 
 .skills {
     background-color: #e0fcff;
-    padding: 2% 3% 5%;
+    padding: 2% 15% 5%;
 }
 
 .skill-row {
@@ -101,12 +113,13 @@ hr {
     margin: 100px auto 100px auto;
     text-align: left;*/
     margin: 20px auto 20px auto;
+    padding: 10px 30px;
     line-height: 1.5;
 }
 
 .My-Project {
     background-color: #e0fcff;
-    padding: 2% 3% 5%;
+    padding: 2% 15% 5%;
 }
 
 .project-row {
@@ -114,6 +127,7 @@ hr {
     margin: 100px auto 100px auto;
     text-align: left;*/
     margin: 20px auto 20px auto;
+    padding: 10px 30px;
     line-height: 1.5;
 }
 
@@ -142,7 +156,7 @@ hr {
 
 .contact-me {
     background-color: #C5CCDA;
-    padding: 3% 4%;
+    padding: 3% 15%;
     /* text-align: center; */
 }
 
@@ -163,12 +177,12 @@ hr {
 .copy-right-container {
     background-color: #66BFBF;
     margin: 0;
-    padding: 50px 0 20px;
+    padding: 50px 15% 20px;
     text-align: center;
 }
 
 .Work-eduction {
-    padding: 2% 3% 5%;
+    padding: 2% 15% 5%;
 }
 
 .work-timeline,
