@@ -71,14 +71,13 @@ hr {
     background-color: #66BFBF;
 }
 
-
-/* div {
-    background-color: #e0fcff;
-} */
-
 .top-container {
     background-color: #e0fcff;
     padding: 10% 0% 10%;
+}
+
+.home-title {
+    padding: 2% 3% 5%;
 }
 
 .job-title {
@@ -88,49 +87,34 @@ hr {
     font-size: 2rem;
 }
 
-.middle-container {
-    margin: 100px 0;
+.about-me-container {
+    padding: 2% 3% 5%;
 }
-
-.bottom-container {
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
-}
-
-
-/* .app {
-    text-decoration: underline;
-} */
-
-
-/* .top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 40px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 250px;
-    bottom: 300px;
-} */
 
 .skills {
     background-color: #e0fcff;
-    padding: 2% 3% 5%
+    padding: 2% 3% 5%;
 }
 
 .skill-row {
     /*    width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;*/
-    margin: 10px auto 10px auto;
+    margin: 20px auto 20px auto;
     line-height: 1.5;
 }
 
 .My-Project {
     background-color: #e0fcff;
-    padding: 2% 3% 5%
+    padding: 2% 3% 5%;
+}
+
+.project-row {
+    /*    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;*/
+    margin: 20px auto 20px auto;
+    line-height: 1.5;
 }
 
 
@@ -152,24 +136,39 @@ hr {
     margin: auto;
 }
 
-.contact-me {
+.contact-me .input-text {
     background-color: #C5CCDA;
 }
 
+.contact-me {
+    background-color: #C5CCDA;
+    padding: 3% 4%;
+    /* text-align: center; */
+}
+
 .contact-msg {
-    width: 40%;
-    margin: 40px auto 60px;
+    /* margin: 40px auto 60px; */
+}
+
+.copy-right-title {
+    margin: 10px 0px;
 }
 
 .copy-right {
     color: #111313;
-    font-size: 0.75rem;
+    font-size: 1rem;
     padding: 20px 0px;
 }
 
 .copy-right-container {
-    padding: 50px auto;
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 50px 0 20px;
     text-align: center;
+}
+
+.Work-eduction {
+    padding: 2% 3% 5%;
 }
 
 .work-timeline,

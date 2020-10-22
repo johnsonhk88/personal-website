@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <div class="title-navbar container-fluid">
+    <div class="title-navbar container-fluid" id="home">
 
         <!--  Nav Bar -->
         <nav class="navbar navbar-expand-lg  navbar-dark">
@@ -41,16 +41,16 @@
                         <a class="nav-link" href="#about-me">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Skill</a>
+                        <a class="nav-link" href="#skills">Skill</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Work</a>
+                        <a class="nav-link" href="#work-exp">Work/Exp</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Project</a>
+                        <a class="nav-link" href="#project">Project</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -58,9 +58,9 @@
         </nav>
 
     </div>
-    <div class="top-container container-fluid" id="home">
+    <div class="top-container container-fluid">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 home-title">
                 <h3>Hello, Welcome back to my personal website</h2>
                     <h1>I'm Johnson, Chong Kit Sang</h1>
                     <h2>
@@ -72,18 +72,20 @@
             </div>
         </div>
     </div>
-    <div class="row middle-container container-fluid" id="about-me">
-        <div class="profile-img col-lg-6 col-md-6">
-            <img src="./images/person_photo202001_head_1500dp.jpg" alt="Johnson's Photo" width="400" height="400">
+    <div class="about-me-container container-fluid" id="about-me">
+        <div class="row">
+            <div class="profile-img col-lg-6 col-md-6">
+                <img src="./images/person_photo202001_head_1500dp.jpg" alt="Johnson's Photo" width="400" height="400">
 
-        </div>
-        <div class="profile-about col-lg-6 col-md-6">
-            <h1 class="about-title">About Me</h1>
-            <p class="intro">I'm an Big Data, Mechine Learning and Mobile Applcation Developer. I love to build a challenge application project. I love to develop a good AI/Machine Learning Application for people. It always gives me challenges and opportunity to improve
-                myself and also share the development experience with others.</p>
+            </div>
+            <div class="profile-about col-lg-6 col-md-6">
+                <h1 class="about-title">About Me</h1>
+                <p class="intro">I'm an Big Data, Mechine Learning and Mobile Applcation Developer. I love to build a challenge application project. I love to develop a good AI/Machine Learning Application for people. It always gives me challenges and opportunity to improve
+                    myself and also share the development experience with others.</p>
+            </div>
         </div>
     </div>
-    <div class="skills">
+    <div class="skills" id="skills">
         <h2>My Skills.</h2>
         <p>Here it's my skills for my past experience</p>
         <div class="row">
@@ -129,7 +131,7 @@
     </div>
 
 
-    <div class="container-fluid Work-eduction">
+    <div class="container-fluid Work-eduction" id="work-exp">
         <div class="row">
             <div class="col-lg-6 col-md-6">
                 <h2>Working Experience</h2>
@@ -189,7 +191,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 col-md-6">
-                <h2>My Education</h2>
+                <h2>Education</h2>
                 <ul class="education-timeline">
                     <li>
                         <h3>Master of Science in Information Technology (Stream in A.I and Big Data) </h3>
@@ -198,7 +200,7 @@
                     </li>
                     <li>
                         <h3>Master of Science in Electronic and Information Engineering</h3>
-                        Sep 2005 t0 Dec 2009
+                        Sep 2005 to Dec 2009
                         <p>Hong Kong Polytechnic University</p>
                     </li>
                     <li>
@@ -213,11 +215,11 @@
     </div>
 
 
-    <div class="My-Project">
+    <div class="My-Project" id="project">
         <h2>My Project</h2>
-        <p>Here it's my self project</p>
+        <p class="">Here it's my self project</p>
         <div class="row">
-            <div class="col-lg-4 col-md-4">
+            <div class="project-row col-lg-4 col-md-6">
                 <div class="card">
                     <img class="project-img card-img-top" src="./images/stock-predication.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
@@ -230,7 +232,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="project-row col-lg-4 col-md-6">
                 <div class="card">
                     <img class="project-img card-img-top" src="./images/handwriting-recognition.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
@@ -244,7 +246,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="project-row col-lg-4 col-md-6">
                 <div class="card">
                     <img class="project-img card-img-top" src="./images/weather-apps.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
@@ -255,7 +257,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="project-row col-lg-4 col-md-6">
                 <div class="card">
                     <img class="project-img card-img-top" src="./images/power-saving.png" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
@@ -269,9 +271,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="project-row col-lg-4 col-md-6">
                 <div class="card">
-                    <img class="project-img card-img-top" src="./images/sport-analysis.jpg" alt="moble apps image" width="400" height="400">
+                    <img class="project-img card-img-top" src="./images/sport-analysis.png" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
                         <h3 class="card-title">Wear Sport Apps (Android Wear) with Machine Learning</h3>
                         <p class="project-descripts card-text">• Write Android Apps (Wear OS) to log the user Sport behavior for sport analysis and sport coach function • Analysis like tennis, badminton, golf swing motion performance • Wear OS app logging with watch sensor like (accelerometer,
@@ -280,7 +282,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4">
+            <div class="project-row col-lg-4 col-md-6">
                 <div class="card">
                     <img class="project-img card-img-top" src="./images/Video-Conferencing.jpg" alt="moble apps image" width="400" height="400">
                     <div class="card-body">
@@ -293,18 +295,29 @@
         </div>
     </div>
 
-    <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you interest Mobile Application design.</h3>
-        <p class="contact-msg"> AI, Big Data and Machine learning Application Development as much as? Let's talk about</p>
-        <form action="mailto:johnsonhk88@gmail.com" method="post">
-            <label>Your Name:</label>
-            <input type="text" name="" id=""> <br>
-            <label>Your Email:</label>
-            <input type="email" name="" id=""> <br>
-            <label>Your Message:</label> <br>
-            <textarea name="" id="" cols="30" rows="10"></textarea> <br>
-            <button type="submit" class="btn btn-lg btn-secondary"><i class="fas fa-envelope"></i>  Contact Me</button>
+    <div class="contact-me" id="contact">
+        <h2 class="contact-me-title">Get In Touch</h2>
+        <h3>If you interest Mobile Application design and Machine Learning Application.</h3>
+        <p class="contact-msg"> AI, Big Data and Machine learning Application Development as much as? Let's talk about with me</p>
+        <form action="mailto:johnsonhk88@gmail.com?subject=Contact-Me&body=body" method="get">
+            <div class="form-group row">
+                <label for="input-name" class=" col-lg-2 col-md-6 col-sm-2 col-form-label">Name</label>
+                <input class="input-text" type="text" name="name" id="input-name" size=50> <br>
+            </div>
+            <div class="form-group row">
+                <label for="input-email" class="col-sm-2 col-form-label">Email</label>
+                <input class="input-text" type="email" name="cc" id="input-email" size=50> <br>
+            </div>
+            <div class="form-group row">
+                <label for="input-msg" class="col-sm-2 col-form-label">Message</label> <br>
+                <textarea class="input-text" name="body" id="input-msg" cols="52" rows="15"></textarea> <br>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-2 "></div>
+                <div class="col-sm-8">
+                    <button type="submit" class="btn btn-lg btn-secondary"><i class="fas fa-envelope"></i>  Contact Me</button>
+                </div>
+            </div>
         </form>
     </div>
 
@@ -312,19 +325,17 @@
 
 
 
-    <footer class="copy-right-container container-fluid ">
 
-        <p class="copy-right ">© 2020 Johnson Chong.</p>
-        <div class="bottom-container">
-            <h3 class="">Follow By Me</h3>
-            <a class="footer-link" href="https://www.facebook.com/johnson.chong.18/"><i class="fab fa-facebook-square fa-3x"></i></a>
-            <a class="footer-link" href="https://www.linkedin.com/in/johnsonhk88/"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a class="footer-link" href="https://twitter.com/johnsonhk88"><i class="fab fa-twitter-square fa-3x"></i></a>
-            <a class="footer-link" href="https://johnsonhk88.github.io/personal-website/"><i class="fab fa-github-square fa-3x "></i></a>
 
-        </div>
+    <div class="copy-right-container container-fluid">
+        <h3 class="copy-right-title">Follow By Me</h3>
+        <a class="footer-link" href="https://www.facebook.com/johnson.chong.18/"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a class="footer-link" href="https://www.linkedin.com/in/johnsonhk88/"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a class="footer-link" href="https://twitter.com/johnsonhk88"><i class="fab fa-twitter-square fa-3x"></i></a>
+        <a class="footer-link" href="https://johnsonhk88.github.io/personal-website/"><i class="fab fa-github-square fa-3x "></i></a>
+        <p class="copy-right">© 2020 Johnson Chong.</p>
+    </div>
 
-    </footer>
 
 </body>
 
