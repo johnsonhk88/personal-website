@@ -62,10 +62,10 @@
     <div class="home-container container-fluid">
         <div class="row">
             <div class="col-lg-6 home-title">
-                <h3>Hello, Welcome back to my personal website</h2>
-                    <h1>I'm Johnson, Chong Kit Sang</h1>
+                <h3 class="home-greeting">Hello, Welcome back to my personal website</h2>
+                    <h1 class="my-name">I'm Johnson, Chong Kit Sang</h1>
                     <h2 class="job-title">
-                        An Mobile Application Developer<br>and Machine Learning Developer
+                        An Mobile Application<br>and Machine Learning Developer
                     </h2>
             </div>
             <div class="col-lg-6">
@@ -81,14 +81,15 @@
             </div>
             <div class="profile-about col-lg-6 col-md-6">
                 <h1 class="about-title">About Me</h1>
-                <p class="intro">I'm an Big Data, Mechine Learning and Mobile Applcation Developer. I love to build a challenge application project. I love to develop a good AI/Machine Learning Application for people. It always gives me challenges and opportunity to improve
-                    myself and also share the development experience with others.</p>
+                <p class="intro">Total over 15 years of experience in software development/ Android /iOS Apps, PC software, embedded firmware program and web service application. I'm studying a Master of Science degree in Information Technology with Stream Artificial
+                    Intelligent and Big Data at the Polytechnic University of Hong Kong expect complete in 2021. I love to build a challenge application project. I love to develop a good AI/Machine Learning Application for people. It always gives me challenges
+                    and opportunity to improve myself and also share the development experience with others.</p>
             </div>
         </div>
     </div>
     <div class="skills" id="skills">
-        <h2>My Skills.</h2>
-        <p>Here it's my skills for my past experience</p>
+        <h2 class="skills-title">My Skills</h2>
+        <p class="skills-brief">Here it's my skills for my past experience</p>
         <div class="row">
             <div class="skill-row col-lg-6 col-md-6">
                 <div class="card">
@@ -135,7 +136,7 @@
     <div class="container-fluid Work-eduction" id="work-exp">
         <div class="row">
             <div class="col-lg-6 col-md-6">
-                <h2>Working Experience</h2>
+                <h2 class="work-title">Working Experience</h2>
                 <ul class="work-timeline">
                     <li>
                         <h3>Mobile Application Developer</h3>
@@ -192,7 +193,7 @@
                 </ul>
             </div>
             <div class="col-lg-6 col-md-6">
-                <h2>Education</h2>
+                <h2 class="edu-title">Education</h2>
                 <ul class="education-timeline">
                     <li>
                         <h3>Master of Science in Information Technology (Stream in A.I and Big Data) </h3>
@@ -217,17 +218,16 @@
 
 
     <div class="My-Project" id="project">
-        <h2>My Project</h2>
+        <h2 class="projec-title">My Project</h2>
         <p class="">Here it's my self project</p>
         <div class="row">
             <div class="project-row col-lg-4 col-md-6">
                 <div class="card">
                     <img class="project-img card-img-top" src="./images/stock-predication.jpg" alt="moble apps image">
                     <div class="card-body">
-                        <h3 class="card-title">Machine Learning for Stock Price Predication (tweet (Twitter) Sentiment analysis)</h3>
-                        <p class="project-descripts card-text">Predication next 7 days price stock by Machine/Deep learning algorithm/Deep learning Model and Dataset for training model : 2 yrs stock price history (8 company stock price: Apple, Amazon, Citibank, Dominion Energy, Facebook, Alphabet(Google),
-                            Microsoft, AT&T)-- like yahoo financial stock price in CSV format) and 2 yr tweet (Twitter API) daily message for specific company news (in JSON format) • Combine both stock price prediction and Tweet message sentiment analysis
-                            together to obtain more accurate stock price • Use Mean Square Error (MSE) to verify the predict model performance • Use Real stock price to verify the predict performance
+                        <h3 class="card-title">Machine Learning Stock Price Predication</h3>
+                        <p class="project-descripts card-text">Predication next 7 days price stock by Machine/Deep learning algorithm/Deep learning Model from 2 years stock price Dataset for training model (Apple, Amazon, Citibank, Dominion Energy, Facebook, Alphabet(Google), Microsoft, AT&T)
+                            (yahoo financial in CSV format) and tweet(Twitter API) mesage for specific company. Combine both stock price and Tweet message sentiment analysis.
                     </div>
                 </div>
             </div>
@@ -235,11 +235,9 @@
                 <div class="card">
                     <img class="project-img card-img-top" src="./images/handwriting-recognition.jpg" alt="moble apps image">
                     <div class="card-body">
-                        <h3 class="card-title">Machine Learning for Handwritten (MNIST digit) recognition (classification)</h3>
-                        <p class="project-descripts card-text">Comparison Different Deep learning Tool (package), performance, Method: use same deep learning algorithm, same hardware and solve same problem for evaluate the deep learning tool performance • Selected compare tool: Tensorflow,
-                            Pytorch, Scikit-learn • Test model: Classification Handwritten digit patterns with Deep learning (CNN) algorithm • Use Dataset for training model : MNIST handwritten Digit dataset (image data) • Build CNN model to train and
-                            test the Handwritten classification algorithm • Use Train speed, CPU usage, Memory usage, Classification report(precision, recall, F1-score,support), accurate rate, confusion matrix for comparison tool performance after model
-                            training
+                        <h3 class="card-title">Machine Learning for Handwritten recognition (classification)</h3>
+                        <p class="project-descripts card-text"> Use MNIST handwritten Digit dataset (image data) to Comparison Different Deep learning Tool (package), performance via same deep learning (CNN) algorithm, same hardware to solve Classification Handwritten digit patterns same problem
+                            for evaluate the deep learning tool performance • Selected compare tool: Tensorflow, Pytorch, Scikit-learn for evalution
 
                         </p>
                     </div>
@@ -250,8 +248,8 @@
                     <img class="project-img card-img-top" src="./images/weather-apps.jpg" alt="moble apps image">
                     <div class="card-body">
                         <h3 class="card-title">Android Weather Apps (With Open Weather Restful API)</h3>
-                        <p class="project-descripts card-text">• Write Android Apps to request the city weather condition • Use Open Weather Restful API (JSON format) with Auth key to request Specific city weather condition • Show Weather Data: Temperature, Humidity, Wind, show weather condition(Sunny,
-                            rain) with icon • Addition City list to assist input the city name for user
+                        <p class="project-descripts card-text">Android Apps to request the city weather condition. Use Open Weather Restful API (JSON format) with Auth key to request Specific city weather condition. Show Weather Data: Temperature, Humidity, Wind, show weather condition(Sunny,
+                            rain) with icon. GPS location Service to check user location weather condition. Notication service to notify weather condition change.
                         </p>
                     </div>
                 </div>
@@ -273,9 +271,8 @@
                     <img class="project-img card-img-top" src="./images/sport-analysis.png" alt="moble apps image">
                     <div class="card-body">
                         <h3 class="card-title">Wear OS Sport Apps with Machine Learning</h3>
-                        <p class="project-descripts card-text">• Write Android Apps (Wear OS) to log the user Sport behavior for sport analysis and sport coach function • Analysis like tennis, badminton, golf swing motion performance • Wear OS app logging with watch sensor like (accelerometer,
-                            gyroscope, magnetometer) obtain motion data • Wear OS apps interface mobile app / backend web service with Machine learning model for analysis sport motion
-                        </p>
+                        <p class="project-descripts card-text">• Write Android Apps (Wear OS) to log the user Sport behavior for sport analysis and sport coach function. Analysis like tennis, badminton, golf swing motion performance. This Wear OS app logging with sensor like (accelerometer,
+                            gyroscope, magnetometer) obtain motion data. This apps interface backend web service with Machine learning model for analysis sport motion</p>
                     </div>
                 </div>
             </div>

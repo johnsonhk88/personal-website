@@ -9,47 +9,17 @@
 
 /* ********tab********* */
 
-
-/* body {
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    color: #40514E;
-} */
-
-h1 {
-    margin-top: 50px auto 0 auto;
-    font-size: 5.62rem;
-    /* 16px = 100% = 1em 
-     90px = 5.625em or 562% 
-    */
-    color: #66BFBF;
-    font-family: 'Sacramento', cursive;
-    /* line-height: 2; */
-}
-
-h2 {
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
-}
-
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
 
-a {
-    /* color: #266e70;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-    text-decoration: none; */
-}
-
 a:hover {
     color: #EAF6F6;
+}
+
+p {
+    line-height: 2;
 }
 
 
@@ -73,16 +43,6 @@ a:hover {
     margin: 4px 5px;
 }
 
-.footer-link {
-    color: #266e70;
-    font-family: 'Montserrat', sans-serif;
-    margin: 10px 20px;
-}
-
-p {
-    line-height: 2;
-}
-
 .home-container {
     background-color: #e0fcff;
     padding: 10% 15% 10%;
@@ -90,22 +50,71 @@ p {
 
 .home-title {
     /*  padding: 2% 20% 5%; */
+    padding: 10px 20px 10px;
+}
+
+.home-greeting {
+    padding: 20px 0 10px;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: 200;
+    color: #11999E;
+}
+
+.my-name {
+    margin: 10px auto 20px auto;
+    font-size: 4.5rem;
+    /* 16px = 100% = 1em 
+     90px = 5.625em or 562% 
+    */
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
 }
 
 .job-title {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 300;
     text-align: left;
     position: relative;
-    left: 5%;
-    font-size: 2rem;
+    left: 10px;
+    color: #9eafaf;
+    font-size: 1.5rem;
 }
 
 .about-me-container {
-    padding: 2% 15% 5%;
+    padding: 10% 15% 10%;
+}
+
+
+/* .about-title {
+    margin: 0px auto 0 auto;
+    font-size: 4.5rem;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+} */
+
+.intro {
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.1rem;
+    color: #646b6b;
+    margin: auto;
 }
 
 .skills {
     background-color: #e0fcff;
-    padding: 2% 15% 5%;
+    padding: 10% 15% 10%;
+}
+
+.skills-title,
+.work-title,
+.edu-title,
+.about-title,
+.projec-title,
+.contact-me-title {
+    margin: 0px auto 0 auto;
+    font-size: 3.8rem;
+    color: #66BFBF;
+    font-family: 'Grenze Gotisch', cursive;
+    font-weight: 200;
 }
 
 .skill-row {
@@ -144,11 +153,6 @@ p {
     float: right;
 }
  */
-
-.intro {
-    width: 80%;
-    margin: auto;
-}
 
 .contact-me .input-text {
     background-color: #C5CCDA;
@@ -221,4 +225,10 @@ p {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+.footer-link {
+    color: #266e70;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
 }
