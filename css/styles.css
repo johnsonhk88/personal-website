@@ -10,7 +10,6 @@
 /* ********tab********* */
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
 
@@ -19,7 +18,12 @@ a:hover {
 }
 
 p {
+    font-family: 'Mukta', sans-serif;
+    padding: 5px 0 0;
+    font-weight: 500;
+    font-size: 1.1rem;
     line-height: 2;
+    color: #646b6b;
 }
 
 
@@ -70,12 +74,12 @@ p {
     font-family: 'Sacramento', cursive;
 }
 
-.job-title {
+.job-title-info {
     font-family: 'Mukta', sans-serif;
     font-weight: 300;
     text-align: left;
     position: relative;
-    left: 10px;
+    left: 5px;
     color: #9eafaf;
     font-size: 1.5rem;
 }
@@ -99,22 +103,23 @@ p {
     margin: auto;
 }
 
-.skills {
-    background-color: #e0fcff;
-    padding: 10% 15% 10%;
-}
-
 .skills-title,
 .work-title,
 .edu-title,
 .about-title,
-.projec-title,
+.project-title,
 .contact-me-title {
     margin: 0px auto 0 auto;
+    padding: 0 0 10px;
     font-size: 3.8rem;
     color: #66BFBF;
     font-family: 'Grenze Gotisch', cursive;
-    font-weight: 200;
+    font-weight: 300;
+}
+
+.skills {
+    background-color: #e0fcff;
+    padding: 5% 15% 5%;
 }
 
 .skill-row {
@@ -122,71 +127,30 @@ p {
     margin: 100px auto 100px auto;
     text-align: left;*/
     margin: 20px auto 20px auto;
-    padding: 10px 30px;
+    padding: 10px 50px;
     line-height: 1.5;
 }
 
-.My-Project {
-    background-color: #e0fcff;
-    padding: 2% 15% 5%;
-}
-
-.project-row {
-    /*    width: 50%;
-    margin: 100px auto 100px auto;
-    text-align: left;*/
-    margin: 20px auto 20px auto;
-    padding: 10px 30px;
-    line-height: 1.5;
-}
-
-
-/* .app-img {
-    width: 40%;
-    height: 40%;
-    float: left;
-}
-
-.ai-img {
-    width: 40%;
-    height: 40%;
-    float: right;
-}
- */
-
-.contact-me .input-text {
-    background-color: #C5CCDA;
-}
-
-.contact-me {
-    background-color: #C5CCDA;
-    padding: 3% 15%;
-    /* text-align: center; */
-}
-
-.contact-msg {
-    /* margin: 40px auto 60px; */
-}
-
-.copy-right-title {
-    margin: 10px 0px;
-}
-
-.copy-right {
-    color: #111313;
-    font-size: 1rem;
-    padding: 20px 0px;
-}
-
-.copy-right-container {
-    background-color: #66BFBF;
-    margin: 0;
-    padding: 50px 15% 20px;
-    text-align: center;
+.skill-name,
+.project-name {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    margin: auto;
 }
 
 .Work-eduction {
-    padding: 2% 15% 5%;
+    padding: 5% 15% 5%;
+}
+
+.job-title,
+.course-title {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    position: relative;
+    left: 5px;
+    color: #626868;
+    font-size: 1.5rem;
 }
 
 .work-timeline,
@@ -225,6 +189,61 @@ p {
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+.My-Project {
+    background-color: #e0fcff;
+    padding: 5% 15% 5%;
+}
+
+.project-row {
+    /*    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;*/
+    margin: 20px auto 20px auto;
+    padding: 10px 30px;
+    line-height: 1.5;
+}
+
+.project-descripts {
+    text-align: left;
+}
+
+.contact-me .input-text {
+    background-color: #eceff3;
+}
+
+.contact-me {
+    background-color: #eceff3;
+    padding: 3% 15%;
+    /* text-align: center; */
+}
+
+.contact-greeting {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 100;
+    margin: auto;
+}
+
+.contact-msg {
+    /* margin: 40px auto 60px; */
+}
+
+.copy-right-title {
+    margin: 10px 0px;
+}
+
+.copy-right {
+    color: #111313;
+    font-size: 1rem;
+    padding: 20px 0px;
+}
+
+.copy-right-container {
+    background-color: #66BFBF;
+    margin: 0;
+    padding: 50px 15% 20px;
+    text-align: center;
 }
 
 .footer-link {
